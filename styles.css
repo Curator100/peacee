@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    width: 2.5in;
+    height: 7in;
+}
+
+.verse-container {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#peaceButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
